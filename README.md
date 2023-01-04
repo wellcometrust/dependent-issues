@@ -4,6 +4,8 @@
 
 It works with PRs and issues and supports cross-repository dependencies.
 
+This action has been forked from https://github.com/z0al/dependent-issues for use at Wellcome.
+
 ## Usage
 
 Create `.github/workflows/dependent-issues.yml` with the following content:
@@ -89,6 +91,26 @@ Here how it can look like in practice:
 ## FAQ
 
 Trouble setting up the action? Check the [FAQ](./FAQ.md).
+
+## Development
+
+To install the action locally, ensure you have Node.js and Yarn installed, then run:
+
+```bash
+$ yarn install
+```
+
+To build the typescript and package it for distribution:
+
+```bash
+$ npm run build && npm run package
+```
+
+To run the tests:
+
+```bash
+$ npm test
+```
 
 ## Credits
 
